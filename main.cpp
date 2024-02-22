@@ -35,6 +35,7 @@ main(){
 	cout<<"Vuelve a ingresar el Nit: ";
 	cin>>nit;
 	obj.setNit(nit);
-		cout<<"Este es el dato que modificaste"<<obj.getNit();
+	//mandar a traer un objeto con get 
+		cout<<"Este es el dato que modificaste: "<<obj.getNit();
 
 }
